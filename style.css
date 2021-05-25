@@ -1,0 +1,49 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background-color: white;
+}
+
+.bodyimg{
+    text-align: center;
+    
+}
+
+.tophead{
+    position: absolute; top: 10%; left: 25%; right: 25%;
+    font-size: 40px;
+    color: white;
+}
+
+.topbetween{
+    position: absolute; top: 30%; left: 5%; right: 5%;
+    font-size: 40px;
+    color: white; 
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310px;
+    font-family: fantasy;
+}
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
